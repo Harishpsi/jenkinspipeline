@@ -1,10 +1,5 @@
-   stage('Build') { 
-        // 
-    }
-    stage('Test') { 
-        // 
-    }
-    stage('Deploy') { 
-        // 
-    }
-}
+  pipeline {
+  agent any
+  stage('Build') { 
+  }
+  }
