@@ -11,5 +11,10 @@
       echo "these is test stage"
    }
    }
-   }
-   }
+ stage('deploy') {
+ step {
+ echo "these is deply stage"
+ }
+ }
+ }
+ }
