@@ -12,7 +12,7 @@
    }
    }
  stage('deploy') {
- step {
+ steps {
  echo "these is deply stage"
  }
  }
