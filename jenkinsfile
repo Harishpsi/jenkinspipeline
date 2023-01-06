@@ -6,19 +6,10 @@
   echo "this is Build stage"
   }
   }
-  }
-  stages {
-  stage('test') {
-  steps {
-  echo "these is test stage"
-  }
-  }
-  }
-  stages {
-  stage('deploy') {
-  steps {
-  echo "these is deploy stage"
-  }
-  }
-  }
-  }
+      stage('test') {
+      steps {
+      echo "these is test stage"
+   }
+   }
+   }
+   }
