@@ -4,16 +4,19 @@
   stage('Build') {
   steps {
   echo "this is Build stage"
+  sleep 10
   }
   }
       stage('test') {
       steps {
       echo "these is test stage"
+      sleep 10
    }
    }
  stage('deploy') {
  steps {
  echo "these is deply stage"
+ sleep 10
  }
  }
  }
